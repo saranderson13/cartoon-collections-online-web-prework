@@ -17,6 +17,6 @@ def find_the_cheese(array_of_foods)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   array_of_foods.find do |food_item|
-    food_item == cheese_types[(0..cheese_types.last)].each
+    food_item == cheese_types[(0..cheese_types.last)]
   end
 end
