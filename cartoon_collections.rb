@@ -17,5 +17,4 @@ def find_the_cheese(array_of_foods)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   array_of_foods.find { |food_item| cheese_types.any? { |cheese| cheese == food_item } }
-  end
 end
